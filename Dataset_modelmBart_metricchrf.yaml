@@ -1,0 +1,30 @@
+MISC:
+  DATA_NAME: Gene
+  DATA_SPEC: Bilingual_modelmBart_metricchrf
+  EXPERIMENTTYPE: Missing_One_replica_in_each_output
+  MODEL_NAME: HMOGPLV
+  MR: 2
+  NUM_KERNEL: 2
+  NUM_REPETITION: 10
+  NUM_SAMPLED: 5
+  VARIANCE_BOUND: 1e-6
+MODEL:
+  GAP: 2
+  Q: 2
+OPTIMIZATION:
+  TRAINING_NUM_EACH_STEP: 2000
+PATH:
+  SAVING_GENERAL: Results/   # Output directory
+  LOSS: /Loss/HMOGPLV                           # Output loss directory
+  PARAMETERS: /Model_parameter/HMOGPLV          # Output parameters directory
+  PLOT: /All-plot/HMOGPLV                       # Output plot directory
+  RESULT: /Result/HMOGPLV/                      # Output result directory
+  DATA_PATH: Datasets/Dataset/
+SYN:
+  LINE_RANGE: 1
+  NOISE:
+  - 0.02
+  NUM_DATA_IN_REPLICATES: 17
+  NUM_OUTPUTS: 6
+  NUM_REPLICATES: 6
+  TRAIN_PERCENTAGE: 0.5

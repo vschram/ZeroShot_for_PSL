@@ -1,0 +1,47 @@
+SYN:
+  NUM_REPLICATES: 6 ## The number of replicates #4 for embed2 and five for lang and 6 for embed and bilingual
+  NUM_OUTPUTS: 5 ## The number of outputs # 3 for embed2 and three for lang and 5 for embed 6 for bilingual
+  TRAIN_PERCENTAGE: 0.5
+  NUM_DATA_IN_REPLICATES: 11 #20 for lang and 11 for embed 17 for bilingual
+  LINE_RANGE: 1
+  NOISE: [0.02] #[0.02]
+MODEL:
+  Q: 2  ## The dimension of H
+  GAP: 2 ## The gap used for the number of inducing points
+OPTIMIZATION:
+  TRAINING_NUM_EACH_STEP: 2000
+PATH:
+  SAVING_GENERAL: Results/   # Output directory
+  LOSS: /Loss/HMOGPLV                           # Output loss directory
+  PARAMETERS: /Model_parameter/HMOGPLV          # Output parameters directory
+  PLOT: /All-plot/HMOGPLV                       # Output plot directory
+  RESULT: /Result/HMOGPLV/                      # Output result directory
+  DATA_PATH: Datasets/Dataset/
+MISC:
+  NUM_REPETITION: 3  ## The number of repetition
+  NUM_KERNEL: 2
+  MR: 2
+  MODEL_NAME: HMOGPLV  ## HMOGPLV ## DHGP
+  DATA_NAME: Gene
+  DATA_SPEC: Embed
+  EXPERIMENTTYPE: active_largest
+  NUM_SAMPLED: 5
+  VARIANCE_BOUND: 1e-6
+
+#OTHER Experimenttype:
+#-----------------------
+#  Remove_Diag (bilingual)
+#  Extrapolate_n2 (multilingual)
+#  Missing_Triangle_1 (embed or embed2)
+#  Missing_Tri_d1 (embed or embed2)
+#  Missing_Tri_d4 (embed or embed2)
+#  Missing_Quad_d4_r3 (embed or embed2)
+#  Missing_One_replica_in_each_output (bilingual)
+#  Missing_One_replica_in_Whole
+#  Train_test_in_each_replica
+
+#DATA_IDX:
+#-----------------------
+#  Multilingual_srcid_tgtx or
+#  Embed or
+#  Bilingual_modelmBart_metricchrf

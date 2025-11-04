@@ -1,0 +1,29 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+gpflow=2.1.4=pypi_0
+gpy=1.13.2=py312h0829862_0
+h5py=3.11.0=pypi_0
+keras=3.5.0=pypi_0
+matplotlib=3.8.4=py312haa95532_0
+numpy=1.26.4=py312h8753938_0
+pandas=2.2.3=py312h72972c8_1
+pillow=10.4.0=py312h381445a_1
+pip=24.2=pyh8b19718_1
+protobuf=4.25.5=pypi_0
+python=3.12.6=hce54a09_0_cpython
+pyyaml=6.0.2=py312h4389bb4_1
+scikit-learn=1.5.1=py312h0158946_0
+scipy=1.11.4=py312h8753938_0
+setuptools=74.1.2=pyhd8ed1ab_0
+shapely=2.1.0=py312h3f81574_0
+tensorboard=2.17.1=pypi_0
+tensorboard-data-server=0.7.2=pypi_0
+tensorflow=2.17.0=pypi_0
+tensorflow-intel=2.17.0=pypi_0
+tensorflow-probability=0.24.0=pypi_0
+tf-keras=2.17.0=pypi_0
+transforms3d=0.4.2=pyhd8ed1ab_0
+yacs=0.1.8=pyhd8ed1ab_0
+yaml=0.2.5=h8ffe710_2
+

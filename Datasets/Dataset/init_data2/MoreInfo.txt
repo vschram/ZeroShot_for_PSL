@@ -1,0 +1,1 @@
+common layers: [ 8 12 24 48]common layers: [ 8 12 24 48]common layers: [ 8 12 24 48]
