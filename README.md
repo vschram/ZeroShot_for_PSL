@@ -6,6 +6,8 @@
 - :chart_with_upwards_trend: [NeurIPS 2025 Poster PDF](https://neurips.cc/media/PosterPDFs/NeurIPS%202025/115947.png?t=1761032474.1345522)  
 - :movie_camera: [NeurIPS 2025 Teaser](https://recorder-v3.slideslive.com/?share=103761&s=c820cd35-daed-45ca-a722-0758f3cb648a)  
 
+If you find this repository helpful, make sure to give us a star and [cite our work](https://github.com/vschram/ZeroShot_for_PSL?tab=readme-ov-file#closed_book-citation).
+
 ---  
 
 ## Repository Overview  
